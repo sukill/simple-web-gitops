@@ -18,7 +18,7 @@ spec:
       - name: simple-web
         image: sukill/simple-web:f747fb6c19bed0fefc09c7d65af4a0998bb48674
         ports:
-        - containerPort: 80
+        - containerPort: 3000
         resources:
           limits:
             memory: 512Mi
