@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-web
-        image: sukill/simple-web:9ec57dc75ee86a14c7ea9c272706e0d1bc92bb7
+        image: sukill/simple-web:9ec57dc75ee86a14c7ea9c272706e0d1bc92bb73
         ports:
         - containerPort: 3000
         resources:
